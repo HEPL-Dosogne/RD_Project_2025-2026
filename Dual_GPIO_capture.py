@@ -1,3 +1,13 @@
+"""
+This script implements a multi‑camera image acquisition system designed for the NVIDIA Jetson Nano.
+It listens to a hardware trigger on a GPIO pin and captures synchronized images from several USB
+(or CSI) cameras whenever a rising edge is detected.
+
+Each camera runs in its own dedicated thread to ensure parallel acquisition and minimal latency.
+When the trigger signal is received, all active camera threads capture a frame, timestamp it with
+microsecond precision, and save it to a 'captures' directory.
+"""
+
 import Jetson.GPIO as gpio
 import cv2
 import time
@@ -5,10 +15,10 @@ import os
 from datetime import datetime
 from threading import Thread, Event
 
-trigger_pin = 40
-cam_indices = [0, 1, 2]
+trigger_pin = 40            # pin of the jetson used to trigger the capture
+cam_indices = [0, 1, 2]     # Design to accept 3 different cameras
 
-# Dossier d'enregistrement
+# Directory for captures
 save_dir = "captures"
 os.makedirs(save_dir, exist_ok=True)
 
@@ -52,7 +62,6 @@ class CameraThread(Thread):
         if self.cap:
             self.cap.release()
 
-# Ouvrir les caméras
 cams = [CameraThread(i) for i in cam_indices]
 for cam in cams:
     cam.start()
