@@ -1,14 +1,14 @@
 ## R&D Project of 2025-2026
 
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6WPloDOC1_dEcjpA1l0B9njH75ijyrJ_o-g&s" width="300">
+</p>
+
 This project focuses on the development of an intelligent visual inspection system designed to detect defects on a production line in real time. 
 It combines a multi‑camera acquisition setup with an embedded AI model running on an NVIDIA Jetson Nano 2GB, enabling efficient on‑device processing despite limited hardware resources.
 
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQPTWkGbJoNHOBTrLcnOELCis0oD0yZv3rKm15qxqyqysnEdXFZBDLvd06sKxGqZISxjBL5ciFjDDvRxDQfZONLjtE2Ini4ILl93_7pkgCU94hMF7Co4bmB3pPUtYE8nciIYtDh7A&usqp=CAc" width="400">
-</p>
-
-<p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6WPloDOC1_dEcjpA1l0B9njH75ijyrJ_o-g&s" width="300">
+  <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQPTWkGbJoNHOBTrLcnOELCis0oD0yZv3rKm15qxqyqysnEdXFZBDLvd06sKxGqZISxjBL5ciFjDDvRxDQfZONLjtE2Ini4ILl93_7pkgCU94hMF7Co4bmB3pPUtYE8nciIYtDh7A&usqp=CAc" width="350">
 </p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
