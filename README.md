@@ -25,3 +25,5 @@ To meet the requirements of responsiveness and reliability, these models must be
 In this context, we developed this project to provide a reliable solution for the company Prefer, which operates in the precast concrete sector. 
 The primary objective is not to minimize energy consumption, but to maximize detection performance while keeping costs under control. 
 This requires selecting efficient network architectures and hardware platforms that offer a balanced compromise between computing power, unit cost, and ease of integration.
+
+In this repositery you will find all the codes used in this project
