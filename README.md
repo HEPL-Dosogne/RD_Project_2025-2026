@@ -7,6 +7,10 @@ It combines a multi‑camera acquisition setup with an embedded AI model running
   <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQPTWkGbJoNHOBTrLcnOELCis0oD0yZv3rKm15qxqyqysnEdXFZBDLvd06sKxGqZISxjBL5ciFjDDvRxDQfZONLjtE2Ini4ILl93_7pkgCU94hMF7Co4bmB3pPUtYE8nciIYtDh7A&usqp=CAc" width="400">
 </p>
 
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6WPloDOC1_dEcjpA1l0B9njH75ijyrJ_o-g&s" width="300">
+</p>
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The system captures images from multiple synchronized cameras, preprocesses the data, and applies a trained neural network to identify anomalies or defective parts as they pass along the production flow. 
