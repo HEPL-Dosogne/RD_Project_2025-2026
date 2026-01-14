@@ -8,7 +8,7 @@ This project focuses on the development of an intelligent visual inspection syst
 It combines a multi‑camera acquisition setup with an embedded AI model running on an NVIDIA Jetson Nano 2GB, enabling efficient on‑device processing despite limited hardware resources.
 
 <p align="center">
-  <img src=".github/assets/SlideProject.jpg" width="400">
+  <img src=".github/assets/SlideProject.jpg" width="500">
 </p>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
