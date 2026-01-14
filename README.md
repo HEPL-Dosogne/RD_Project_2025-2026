@@ -1,2 +1,7 @@
-# R-D-Project-2025-2026
-Design of a multi‑camera acquisition system integrating an AI model for automatic defect detection on a production line.
+# R&D Project of 2025-2026
+
+This project focuses on the development of an intelligent visual inspection system designed to detect defects on a production line in real time. 
+It combines a multi‑camera acquisition setup with an embedded AI model running on an NVIDIA Jetson Nano 2GB, enabling efficient on‑device processing despite limited hardware resources.
+
+The system captures images from multiple synchronized cameras, preprocesses the data, and applies a trained neural network to identify anomalies or defective parts as they pass along the production flow. 
+Its modular architecture allows the use of two cameras by default, with the capability to scale up to three or even four cameras depending on operational needs.
