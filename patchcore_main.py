@@ -1,3 +1,13 @@
+"""
+PatchCore-based anomaly detection pipeline.
+
+This script implements a complete workflow for industrial anomaly detection,
+including feature extraction using a pretrained WideResNet, memory bank
+construction from normal samples, and evaluation through patch‑wise distance
+analysis. It also provides visualization utilities and a command‑line interface
+for training and inference.
+"""
+
 import os
 import argparse
 from pathlib import Path
@@ -413,3 +423,4 @@ if __name__ == "__main__":
         train_patchcore(args)
     elif args.mode == "eval":
         eval_patchcore(args)
+
