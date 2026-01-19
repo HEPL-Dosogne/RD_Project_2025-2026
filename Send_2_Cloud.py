@@ -59,7 +59,7 @@ def sync_loop():
             except Exception as e:
                 print(f"Erreur upload {f}: {e}")
 
-        # time.sleep(SYNC_INTERVAL)
+        time.sleep(SYNC_INTERVAL)
 
 if __name__ == "__main__":
     print(f"Synchronisation toutes les {SYNC_INTERVAL} secondes depuis {CAPTURE_DIR}...")
